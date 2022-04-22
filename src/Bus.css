@@ -1,0 +1,35 @@
+.Container1{
+    margin-left: 25%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: 300px;
+    width: 1300px;
+    border: 1px solid black; 
+}
+.Container1 h3{
+     font-size: 20px;
+     margin-left: 2%;
+}
+.Container1 p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.Dis p{
+    margin-top: 40px;
+    font-size: 16px;
+    margin-left: 2%;
+}
+.Btn{
+    height: 50px;
+    width:100px;
+    background-color:red;
+    color: #fff;
+    display: flex;
+    justify-content: stretch;
+    cursor: pointer;
+    margin-top:55% ;
+    margin-left: 75%;
+    border: radius 5px; 
+}

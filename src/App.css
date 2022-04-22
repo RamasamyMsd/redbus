@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.suggestion {
+ color: #000;
+ background-color: rgb(194, 194, 194);
+ width: 400px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.suggestion p{
+  margin-bottom: 8px;
+  cursor: pointer;
+}
